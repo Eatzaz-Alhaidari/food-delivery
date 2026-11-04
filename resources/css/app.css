@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500&family=Noto+Kufi+Arabic:wght@600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --sufra-bg: #F6F1E9;
+    --sufra-surface: #FBF8F3;
+    --sufra-text: #2B2A27;
+    --sufra-muted: #7A756B;
+    --sufra-border: #E2DACB;
+    --sufra-primary: #4F5D45;
+    --sufra-primary-hover: #424F3A;
+    --sufra-accent: #B5573A;
+    --sufra-accent-hover: #9F4B32;
+}
+
+@layer base {
+    html {
+        direction: rtl;
+        font-family: 'IBM Plex Sans Arabic', sans-serif;
+        background-color: var(--sufra-bg);
+        color: var(--sufra-text);
+        font-size: 16px;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    body {
+        background-color: var(--sufra-bg);
+        color: var(--sufra-text);
+        font-family: 'IBM Plex Sans Arabic', sans-serif;
+        line-height: 1.5;
+        min-height: 100vh;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 600;
+        color: var(--sufra-text);
+    }
+
+    /* منع الظلال تماماً واستبدالها بحدود رفيعة */
+    * {
+        border-color: var(--sufra-border);
+    }
+
+    /* تنسيق افتراضي لحقول الإدخال */
+    input[type='text'],
+    input[type='email'],
+    input[type='password'],
+    input[type='number'],
+    input[type='search'],
+    input[type='tel'],
+    input[type='url'],
+    textarea,
+    select {
+        background-color: var(--sufra-surface);
+        border: 1px solid var(--sufra-border);
+        color: var(--sufra-text);
+        border-radius: 6px;
+        font-size: 16px;
+    }
+
+    input:focus,
+    textarea:focus,
+    select:focus {
+        border-color: var(--sufra-primary) !important;
+        box-shadow: 0 0 0 1px var(--sufra-primary) !important;
+        outline: none !important;
+    }
+
+    /* إزالة تأثير التوهج من الأزرار عند التركيز */
+    button:focus,
+    a:focus {
+        outline: 1px solid var(--sufra-primary);
+        outline-offset: 2px;
+    }
+
+    [x-cloak] {
+        display: none !important;
+    }
+}

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+    <rect width="100%" height="100%" fill="#FBF8F3"/>
+    <rect x="4" y="4" width="392" height="292" rx="6" fill="none" stroke="#E2DACB" stroke-width="2"/>
+    <g transform="translate(170, 105)" stroke="#4F5D45" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M5 45 H55"/>
+        <path d="M10 45 C10 30 18 20 30 20 C42 20 50 30 50 45"/>
+        <circle cx="30" cy="14" r="3" fill="#4F5D45"/>
+    </g>
+    <text x="200" y="195" text-anchor="middle" font-family="'IBM Plex Sans Arabic', sans-serif" font-size="14" fill="#7A756B">سُفرة &bull; صورة المطعم</text>
+</svg>
+

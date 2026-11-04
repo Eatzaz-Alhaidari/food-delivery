@@ -1,0 +1,58 @@
+<?php
+
+return [
+    'accepted' => 'يجب قبول :attribute.',
+    'accepted_if' => 'يجب قبول :attribute عندما يكون :other هو :value.',
+    'active_url' => ':attribute ليس رابطاً صحيحاً.',
+    'after' => 'يجب أن يكون :attribute تاريخاً بعد :date.',
+    'alpha' => 'يجب أن يحتوي :attribute على أحرف فقط.',
+    'alpha_dash' => 'يجب أن يحتوي :attribute على أحرف وأرقام وشرطات فقط.',
+    'alpha_num' => 'يجب أن يحتوي :attribute على أحرف وأرقام فقط.',
+    'array' => 'يجب أن يكون :attribute مصفوفة.',
+    'before' => 'يجب أن يكون :attribute تاريخاً قبل :date.',
+    'between' => [
+        'numeric' => 'يجب أن تكون قيمة :attribute بين :min و :max.',
+        'file' => 'يجب أن يكون حجم :attribute بين :min و :max كيلوبايت.',
+        'string' => 'يجب أن يكون عدد أحرف :attribute بين :min و :max.',
+        'array' => 'يجب أن يحتوي :attribute على عدد عناصر بين :min و :max.',
+    ],
+    'boolean' => 'يجب أن تكون قيمة :attribute إما صحيح أو خطأ.',
+    'confirmed' => 'تأكيد :attribute غير متطابق.',
+    'current_password' => 'كلمة المرور غير صحيحة.',
+    'date' => ':attribute ليس تاريخاً صحيحاً.',
+    'email' => 'يجب أن يكون :attribute عنوان بريد إلكتروني صالحاً.',
+    'exists' => 'القيمة المحددة لـ :attribute غير صالحة.',
+    'filled' => 'حقل :attribute مطلوب.',
+    'image' => 'يجب أن يكون :attribute صورة.',
+    'in' => 'القيمة المحددة لـ :attribute غير صالحة.',
+    'integer' => 'يجب أن يكون :attribute عدداً صحيحاً.',
+    'max' => [
+        'numeric' => 'يجب ألا تكون قيمة :attribute أكبر من :max.',
+        'file' => 'يجب ألا يتجاوز حجم :attribute :max كيلوبايت.',
+        'string' => 'يجب ألا يتجاوز عدد أحرف :attribute :max حرفاً.',
+        'array' => 'يجب ألا يحتوي :attribute على أكثر من :max عنصراً.',
+    ],
+    'min' => [
+        'numeric' => 'يجب أن تكون قيمة :attribute على الأقل :min.',
+        'file' => 'يجب أن يكون حجم :attribute على الأقل :min كيلوبايت.',
+        'string' => 'يجب أن يحتوي :attribute على الأقل على :min أحرف.',
+        'array' => 'يجب أن يحتوي :attribute على الأقل على :min عناصر.',
+    ],
+    'numeric' => 'يجب أن يكون :attribute رقماً.',
+    'required' => 'حقل :attribute مطلوب.',
+    'same' => 'يجب أن يتطابق :attribute مع :other.',
+    'string' => 'يجب أن يكون :attribute نصاً.',
+    'unique' => 'قيمة :attribute مستخدمة بالفعل.',
+    'url' => 'صيغة الرابط :attribute غير صحيحة.',
+
+    'attributes' => [
+        'name' => 'الاسم',
+        'email' => 'البريد الإلكتروني',
+        'password' => 'كلمة المرور',
+        'password_confirmation' => 'تأكيد كلمة المرور',
+        'phone' => 'رقم الهاتف',
+        'address' => 'العنوان',
+        'notes' => 'الملاحظات',
+    ],
+];
+
